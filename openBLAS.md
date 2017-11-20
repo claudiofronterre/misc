@@ -1,6 +1,6 @@
 # How to install openBLAS library for R in Ubuntu
 
-The standard base R installation makes use of BLAS library for matrix computations. However, the openBLAS library is much faster and optimised and can works also with multiple processors. First of all install the library `benchmarkme`. It contains the function `get_linear_algebra` that will show which libraries R is currently using for algebraic calculus (Note: it currently works only under Linux and Apple OS). Moreover, it allows us to run test to see the difference in speed after installing openBLAS.
+The standard base R installation makes use of BLAS library for matrix computations. However, the openBLAS library is much faster and optimised and can work also with multiple processors. First of all install the library `benchmarkme`. It contains the function `get_linear_algebra` that will show which libraries R is currently using for algebraic calculus (Note: it currently works only under Linux and Apple OS). Moreover, it allows us to run test to see the difference in speed after installing openBLAS.
 
 ```r
 install.packages("benchmarkme")
