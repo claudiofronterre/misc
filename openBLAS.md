@@ -36,7 +36,7 @@ plot(res_before)
 If openBLAS was not the default then you can easily instally it from terminal using the following code
 
 ```
-sudo apt-get install libopenblas-bas libopenblas-dev
+sudo apt-get install libopenblas-base libopenblas-dev
 ```
 
 R should automatically detect the new library. Just to be sure check that openBLAS is now the used library using the following command from terminal. If it is not the default the select it from the list typing the correct number.
