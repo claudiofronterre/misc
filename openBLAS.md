@@ -51,5 +51,19 @@ And now run the benchmark again and compare the resutls. You will notice a consi
 res_after <- benchmark_std()
 plot(res_after)
 ```
+Remember that by default openBLAS will use all the cores/threads available. This could be not the best thing to do in some cases because it could cause overhead. If you want to change the number of cores used you can do it with this function written by [Simon Fuller](https://github.com/simonfullernuim/OpenBlasThreads)
+
+```r
+require(inline)
+openblas.set.num.threads <- cfunction( signature(ipt="integer"),
+      body = 'openblas_set_num_threads(*ipt);',
+      otherdefs = c ('extern void openblas_set_num_threads(int);'),
+      libargs = c ('-L/opt/openblas/lib -lopenblas'),
+      language = "C",
+      convention = ".C"
+      )
+```
+
+If we want to use only two cores it will be enough to use `openblas.set.num.threads(2)` and for that R session openBLAS will use only 2 threads.
 
 For a more extensive guide on linear algebra libraries for R check the official R manual [section](https://cran.r-project.org/doc/manuals/r-release/R-admin.html#Linear-algebra). Moreover, [Brett Klamer](http://brettklamer.com/diversions/statistical/faster-blas-in-r/) provides a nice comparison of ATLAS, OpenBLAS and Intel MKL BLAS libraries. He also gives a description of how to install the different libraries.
