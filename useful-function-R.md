@@ -15,3 +15,10 @@ zoo::as.yearmon(x)
 ```
 
 where `x` must be of class `Date`.
+
+## Tricks for formula objects
+
+```r
+as.formula(paste("outcome", paste(names(covariates), collapse= "+"), sep = "~"))
+```
+
