@@ -2,7 +2,7 @@
 
 ## General
 
-## R
+## R and RStudio
 
 ### Set up the .Rprofile
 After the first installion in R you need to set up the .Rprofile. First check if there is a .Rprofile for the entire system with
@@ -58,3 +58,8 @@ nice_par()
 
 ### Change the BLAS libraries to make R faster
 To do this just follow the following [turorial](https://github.com/claudiofronterre/misc/blob/master/openBLAS.md).
+
+### RStudio options
+* `Restore .RData`: Unticking this default preventing loading previously creating R objects. This will make starting R quicker and also reduce the chance of getting bugs due to previously created objects. For this reason we recommend you untick this box.
+* `Save workspcace to .RData on exit`: change to Never. 
+* Go to `Appearance`: set Editor theme `Solarized Dark`. From time to time check if there is something nicer. 
