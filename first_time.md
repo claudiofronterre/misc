@@ -55,3 +55,6 @@ nice_par = function(mar = c(3, 3, 2, 1), mgp = c(2, 0.4, 0), tck = -0.01,
 
 nice_par()
 ```
+
+### Change the BLAS libraries to make R faster
+To do this just follow the following [turorial](https://github.com/claudiofronterre/misc/blob/master/openBLAS.md).
