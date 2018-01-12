@@ -23,3 +23,12 @@ git add -A #add all changes
 git commit -m "a message to remember the updates"
 git push
 ```
+### Link project repository to Rstudio
+1. Got to GitHub and create a new repository for the project with the README file.
+2. Go to RStudio -> New Project -> Version Control -> Git and now insert the repository URL and the project directory name.
+### Update the repo from Git
+1. Go to the commit window
+2. Press CTRL + A to select all the files and stage them
+3. Write a commit message on the right top panel
+4. Commit
+5. Push
