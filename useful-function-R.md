@@ -41,8 +41,9 @@ as.formula(paste("outcome", paste(names(covariates), collapse= "+"), sep = "~"))
 When loading a lot of r packages use this:
 
 ```r
-pkgs = c("raster", "leaflet", "rgeos") # package names
-lapply(pkgs, library, character.only = TRUE) # load them
+if (!require("pacman")) install.packages("pacman") #install pacman library if missing
+pkgs = c("rstan", "shinystan", "sp", "geoR", "MBA", "tmap", "spBayes", "fields") # package names
+pacman::p_load(pkgs, character.only = T)
 ```
 
-If you want to suppress messages and warnings add the agrument `quietly = TRUE`.
+It will also install missing packages.
