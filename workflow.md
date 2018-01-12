@@ -14,4 +14,12 @@ report on results.
 ![filenaming](https://github.com/claudiofronterre/misc/blob/master/img/datanaming.png)
 Hence the final prject folder should look something like
 ![finalfolder](https://github.com/claudiofronterre/misc/blob/master/img/datafolder2.png)
-
+## Version control
+### Git workflow
+Every time that you change something in the local directory to update the git-hub repo do:
+```
+git status
+git add -A #add all changes
+git commit -m "a message to remember the updates"
+git push
+```
