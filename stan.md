@@ -11,3 +11,5 @@ row_vector[N] b[M];   // b[m] : row_vector (efficient)
 matrix[M, N] b;       // b[m] : row_vector (inefficient)
 ```
 If Sigma is a variable of type matrix, then Sigma[1] denotes the first row of Sigma and has the type `row_vector`.
+![stan1](https://github.com/claudiofronterre/misc/blob/master/img/stan1.png)
+
