@@ -38,7 +38,7 @@ as.formula(paste("outcome", paste(names(covariates), collapse= "+"), sep = "~"))
 
 ## Tricks for spatial data
 
-### Loading a lot of rasters with different resolution and extensions and extract values from them
+### Extract values from many rasters with different resolution and extensions
 
 This function extract values from a group of rasters given a set of points. It also allows the presence of rasters with differnt extentions, resolution and projections. It has the following arguments
 
