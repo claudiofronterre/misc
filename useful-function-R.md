@@ -36,6 +36,38 @@ for (i in c(1, 2, 3)) {
 as.formula(paste("outcome", paste(names(covariates), collapse= "+"), sep = "~"))
 ```
 
+## Tricks for spatial data
+
+### Loading a lot of rasters with different resolution and extensions and extract values from them
+
+This function extract values from a group of rasters given a set of points. It also allows the presence of rasters with differnt extentions, resolution and projections. It has the following arguments
+
+* `path` the folder containing the rasters. It will also check in the subfolderds.
+* `pattern` the file extension of the rasters. The default is tif files.
+* `coords` points represented by a two-column matrix or data.frame, or a SpatialPoints object. 
+* `check.packages` to facilitate reproducibility, when this argument is set to TRUE it will load (and install if missing) all the packages needed by the function to work properly (raster, sp and pbapply).
+
+The function checks also the consistency between the procjection of the raster and the points provided. If the projection is different the points are converted to the same projection of the raster. It returns a `data.frame` object with each column containing the extracted values from each raster. 
+
+```r
+extract_raster <- function(path = getwd(), pattern = ".tif$", coords, check.pacakges = FALSE) {
+  if(check.pacakges == TRUE) {
+  if (!require("pacman")) install.packages("pacman")
+  pkgs = c("raster", "sp", "pbapply")
+  pacman::p_load(pkgs, character.only = T)
+  }
+  raster_list <- list.files(path = path, recursive = T, pattern = ".tif$", full.names = TRUE)
+  col_names <- tools::file_path_sans_ext(basename(raster_list))
+  df <- pbsapply(raster_list, FUN = function(x) {
+    temp <- stack(x) 
+    if (proj4string(temp) != proj4string(coords)) coords <- spTransform(coords, CRSobj = crs(temp))
+    df <- extract(temp, coords)
+    })
+  df <- as.data.frame(df)
+  names(df) <- col_names
+  return(df)
+} 
+```
 ## Various
 
 When loading a lot of r packages use this:
