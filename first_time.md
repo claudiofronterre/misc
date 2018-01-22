@@ -52,8 +52,6 @@ nice_par = function(mar = c(3, 3, 2, 1), mgp = c(2, 0.4, 0), tck = -0.01,
     par(mar = mar, mgp = mgp, tck = tck, cex.axis = cex.axis, las = las, 
         mfrow = mfrow, ...)
 }
-
-nice_par()
 ```
 
 ### Change the BLAS libraries to make R faster
