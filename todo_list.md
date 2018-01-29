@@ -1,6 +1,6 @@
 # To do
 - [ ] Finish [Onco](https://github.com/claudiofronterre/onco) (due: Friday)
-- [x] Finish the R package (due: Sunday)
+- [x] ~~Finish the R package (due: Sunday)~~
 - [ ] Finish to read the course notes (due: Monday)
 * Register to RSS Fellow and then register to [this event](https://www.statslife.org.uk/events/eventdetail/1056/95/rss-computational-statistics-machine-learning-group-launch).
 * Learn to do a R package, start from [here](https://github.com/jtleek/rpackages)
