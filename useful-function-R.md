@@ -79,3 +79,11 @@ pacman::p_load(pkgs, character.only = T)
 ```
 
 It will also install missing packages.
+
+To create categories for prevalence that contains a category with only zeros do the following
+
+```r
+prev <- cut(onco$prevalence, breaks = seq(0, 1, by = 0.2)) #equal categories open at left and closed at right
+prev <- forcats::fct_explicit_na(prev, na_level = "0") #converts the na to 0
+prev <- forcats::fct_shift(prev, -1) # reoder the levels
+```
