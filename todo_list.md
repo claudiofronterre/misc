@@ -1,5 +1,9 @@
 # To do
-- [ ] Finish [Onco](https://github.com/claudiofronterre/onco) (due: Friday)
+- [ ] Send [Onco](https://github.com/claudiofronterre/onco) predictions to Paniota (due: Monday)
+- [ ] Update practicals (due: Monday)
+- [ ] Update cluster lecture (due: Monday)
+- [ ] Talk to Jorge about summer project. (due: Monday)
+- [ ] Give Jorge DIC tables. 
 - [ ] Register to RSS Fellow.
 - [ ] Think about going to this [workshop](https://www.liverpool.ac.uk/translational-medicine/departmentsandgroups/joine-r/workshops/)
 - [ ] Write a guide about R packages, start from [here](https://github.com/jtleek/rpackages)
