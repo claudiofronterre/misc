@@ -1,8 +1,9 @@
 # To do
 - [ ] Send [Onco](https://github.com/claudiofronterre/onco) predictions to Paniota (due: Monday)
-- [ ] Update practicals (due: Monday)
-- [ ] Update cluster lecture (due: Monday)
-- [ ] Talk to Jorge about summer project. (due: Monday)
+- [ ] Update practicals (due: 21/02)
+- [ ] Update cluster lecture (due: 21/02)
+- [ ] Talk to Jorge about summer project. (due: 21-23/02)
+- [ ] Point by point answers to reviewers. (due: 28/02)
 - [ ] Give Jorge DIC tables. 
 - [ ] Register to RSS Fellow.
 - [ ] Think about going to this [workshop](https://www.liverpool.ac.uk/translational-medicine/departmentsandgroups/joine-r/workshops/)
