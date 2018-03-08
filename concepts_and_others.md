@@ -19,3 +19,6 @@ Implications for training scientists:
 - teach statistical thinking, not statistical techniques;
 - how to recognise when standard methods are inadequate;
 - the statistician as an integral (and committed!) part of the research team.
+
+## “Analyse problems, not data” PJD
+Choice of model/method should relate to scientific purpose.
