@@ -1,6 +1,8 @@
 # To do
-- [ ] Prepare geostatistics practicals (due: Friday)
-- [ ] Start to read LF papers (due: 7/03)
+- [ ] Send out material about CARBayes
+- [ ] Check variogram with Poisson data
+- [ ] Read paper about generative models for disease mapping
+- [ ] Finish to read LF papers (due: 16/03)
 - [ ] Give Jorge DIC tables. 
 - [ ] Register to RSS Fellow.
 - [ ] Think about going to this [workshop](https://www.liverpool.ac.uk/translational-medicine/departmentsandgroups/joine-r/workshops/)
