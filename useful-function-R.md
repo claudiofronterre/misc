@@ -68,6 +68,16 @@ extract_raster <- function(path = getwd(), pattern = ".tif$", coords, check.paca
   return(df)
 } 
 ```
+
+### Coordinate reference systems
+
+It is more convenient to use EPSG codes when doing reprojections. The codes that I mainly use are:
+
+1. epsg 4326 that corresponds to GS84 lonlat projection.
+2. epsg 3857 for Web Mercator (Auxiliary Sphere) projection (this is good for palces that pass through more UTM zone).
+
+For country scale and or more local analysis UTM projection is more precise for distances but we need to define a specific zone. 
+
 ## Various
 
 When loading a lot of r packages use this:
