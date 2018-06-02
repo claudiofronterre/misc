@@ -4,3 +4,4 @@ This files contains links to resources to improve and update my R programming sk
 
 - Check `data.table` package and compare it with `dplyr`. It is supposed to be faster in several situations. Start from this [indotroduction](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) and then check the other package vignettes.
 - Become proficient in writing R packages that last. Follow this [workshop](https://github.com/ColinFay/erum2018).
+- Chek the [`bigstatsr`](https://github.com/privefl/bigstatsr) and the [`bigmemory`](https://cran.r-project.org/web/packages/bigmemory/index.html) packages to deal with huge matrices.
