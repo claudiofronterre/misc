@@ -34,16 +34,16 @@ This files contains links to resources to improve and update my R programming sk
 - [bounceR 0.1.2: Automated Feature Selection](https://www.statworx.com/de/blog/data-science/bouncer-0-1-2-automated-feature-selection/).
 - [Non-Linear Models in R: Exercises](https://www.r-exercises.com/2018/06/21/non-linear-model-in-r-exercise/).
 - [Explaining Keras image classification models with lime](https://shirinsplayground.netlify.com/2018/06/keras_fruits_lime/).
--[Poisson-binomial distribution - any existing Stan implementation?](http://discourse.mc-stan.org/t/poisson-binomial-distribution-any-existing-stan-implementation/4220).
--[Four Ways to Write Better Stan Code](https://www.displayr.com/how-to-write-efficient-stan-code/?utm_medium=Feed&utm_source=Syndication).
--[UC Business Analytics R Programming Guide ](http://uc-r.github.io/).
--[Producing web content with R](https://colinfay.me/web-dev-r/).
--[Why I rarely use apply](https://privefl.github.io/blog/why-i-rarely-use-apply/).
--[Seasonal decomposition of short time series](https://robjhyndman.com/hyndsight/tslm-decomposition/).
--[FROM DATA TO VIZ | FIND THE GRAPHIC YOU NEED](https://www.r-graph-gallery.com/from-data-to-viz-find-the-graphic-you-need/).
--[Stencila – an office suite for reproducible research](https://r-posts.com/stencila-an-office-suite-for-reproducible-research/).
--[Introducing the Kernelheaping Package](https://www.inwt-statistics.com/read-blog/introducing-the-kernelheaping-package-512.html).
--[Using Machine Learning for Causal Inference](https://www.statworx.com/de/blog/using-machine-learning-for-causal-inference/).
--[statistics stuff you should think about](https://rpubs.com/bbolker/stats_intro).
--[Happy dev with {purrr}](https://colinfay.me/happy-dev-purrr/).
--[Docker for the UseR](https://github.com/noamross/nyhackr-docker-talk).
+- [Poisson-binomial distribution - any existing Stan implementation?](http://discourse.mc-stan.org/t/poisson-binomial-distribution-any-existing-stan-implementation/4220).
+- [Four Ways to Write Better Stan Code](https://www.displayr.com/how-to-write-efficient-stan-code/?utm_medium=Feed&utm_source=Syndication).
+- [UC Business Analytics R Programming Guide ](http://uc-r.github.io/).
+- [Producing web content with R](https://colinfay.me/web-dev-r/).
+- [Why I rarely use apply](https://privefl.github.io/blog/why-i-rarely-use-apply/).
+- [Seasonal decomposition of short time series](https://robjhyndman.com/hyndsight/tslm-decomposition/).
+- [FROM DATA TO VIZ | FIND THE GRAPHIC YOU NEED](https://www.r-graph-gallery.com/from-data-to-viz-find-the-graphic-you-need/).
+- [Stencila – an office suite for reproducible research](https://r-posts.com/stencila-an-office-suite-for-reproducible-research/).
+- [Introducing the Kernelheaping Package](https://www.inwt-statistics.com/read-blog/introducing-the-kernelheaping-package-512.html).
+- [Using Machine Learning for Causal Inference](https://www.statworx.com/de/blog/using-machine-learning-for-causal-inference/).
+- [statistics stuff you should think about](https://rpubs.com/bbolker/stats_intro).
+- [Happy dev with {purrr}](https://colinfay.me/happy-dev-purrr/).
+- [Docker for the UseR](https://github.com/noamross/nyhackr-docker-talk).
