@@ -6,3 +6,44 @@ This files contains links to resources to improve and update my R programming sk
 - Become proficient in writing R packages that last. Follow this [workshop](https://github.com/ColinFay/erum2018).
 - Chek the [`bigstatsr`](https://github.com/privefl/bigstatsr) and the [`bigmemory`](https://cran.r-project.org/web/packages/bigmemory/index.html) packages to deal with huge matrices.
 - Have a look a the [`xaringanthemer`](https://pkg.garrickadenbuie.com/xaringanthemer/) package. 
+- [Continuous deployment of package documentation with pkgdown and Travis CI](https://www.r-bloggers.com/continuous-deployment-of-package-documentation-with-pkgdown-and-travis-ci/).
+- [Smoothing time series data](https://www.displayr.com/smoothing-time-series-data/?utm_medium=Feed&utm_source=Syndication).
+- [Get on your soapbox! R blog content and promotion](https://masalmon.eu/2018/07/16/soapbox/).
+- [Markov Chains in R](https://www.londonr.org/wp-content/uploads/sites/2/2018/05/londonr.pdf).
+- [finalfint](https://github.com/ewenharrison/finalfit).
+- [purrr tutorial](https://jennybc.github.io/purrr-tutorial/index.html).
+- [Why I use ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/).
+- [Extracting Seasonality and Trend from Data: Decomposition Using R](https://anomaly.io/seasonal-trend-decomposition-in-r/).
+- [Time Series Analysis](http://r-statistics.co/Time-Series-Analysis-With-R.html).
+- [Why Geocomputation ?](https://rpubs.com/chrisbrunsdon/kclgeocomp).
+- [The Spatial Autoregression Regression Model and Correlation](https://rpubs.com/chrisbrunsdon/114718).
+- [Chris Brunsdon](https://rpubs.com/chrisbrunsdon/UQOutline).
+- [Challenges & Opportunities in Clinical Prediction Modeling](http://hbiostat.org/talks/memtab18.pdf).
+- [Convex regression model](https://freakonometrics.hypotheses.org/53384).
+- [Lyric Analysis with NLP & Machine Learning with R](https://www.datacamp.com/community/tutorials/R-nlp-machine-learning).
+- [Basic Generalized Additive Models In Ecology: Exercises](https://www.r-exercises.com/2018/07/05/basic-generalised-additive-model-in-ecology-exercise/).
+- [A First Look at NIMBLE](https://rviews.rstudio.com/2018/07/05/a-first-look-at-nimble/).
+- [ggrough](https://xvrdm.github.io/ggrough/).
+- [Local Goodness-of-Fit Plots](http://smarterpoland.pl/index.php/2018/07/local-goodness-of-fit-plots-wangkardu-explanations-a-new-dalex-companion/).
+- [Marginal Effects for Regression Models in R](https://strengejacke.wordpress.com/2018/07/03/marginal-effects-for-regression-models-in-r-rstats-dataviz/).
+- [Optimize for Expected Profit in Lift Models](https://samcarlos.netlify.com/2018/07/10/optimize-for-expected-profit-in-lift-models/).
+- [How the odds ratio confounds: a brief study in a few colorful figures](https://www.rdatagen.net/post/log-odds/).
+- [A Simple Spatial Equilibrium Model with Tidycensus](https://ignaciomsarmiento.github.io/2018/07/10/A-Simple-Spatial-Equilibrium-Model-with-Tidycensus.html).
+- [Geocoding in R](https://cengel.github.io/rspatial/5_Geocoding.nb.html).
+- [Not only LIME](http://smarterpoland.pl/index.php/2018/06/not-only-lime/).
+- [bounceR 0.1.2: Automated Feature Selection](https://www.statworx.com/de/blog/data-science/bouncer-0-1-2-automated-feature-selection/).
+- [Non-Linear Models in R: Exercises](https://www.r-exercises.com/2018/06/21/non-linear-model-in-r-exercise/).
+- [Explaining Keras image classification models with lime](https://shirinsplayground.netlify.com/2018/06/keras_fruits_lime/).
+-[Poisson-binomial distribution - any existing Stan implementation?](http://discourse.mc-stan.org/t/poisson-binomial-distribution-any-existing-stan-implementation/4220).
+-[Four Ways to Write Better Stan Code](https://www.displayr.com/how-to-write-efficient-stan-code/?utm_medium=Feed&utm_source=Syndication).
+-[UC Business Analytics R Programming Guide ](http://uc-r.github.io/).
+-[Producing web content with R](https://colinfay.me/web-dev-r/).
+-[Why I rarely use apply](https://privefl.github.io/blog/why-i-rarely-use-apply/).
+-[Seasonal decomposition of short time series](https://robjhyndman.com/hyndsight/tslm-decomposition/).
+-[FROM DATA TO VIZ | FIND THE GRAPHIC YOU NEED](https://www.r-graph-gallery.com/from-data-to-viz-find-the-graphic-you-need/).
+-[Stencila – an office suite for reproducible research](https://r-posts.com/stencila-an-office-suite-for-reproducible-research/).
+-[Introducing the Kernelheaping Package](https://www.inwt-statistics.com/read-blog/introducing-the-kernelheaping-package-512.html).
+-[Using Machine Learning for Causal Inference](https://www.statworx.com/de/blog/using-machine-learning-for-causal-inference/).
+-[statistics stuff you should think about](https://rpubs.com/bbolker/stats_intro).
+-[Happy dev with {purrr}](https://colinfay.me/happy-dev-purrr/).
+-[Docker for the UseR](https://github.com/noamross/nyhackr-docker-talk).
