@@ -4,10 +4,11 @@
 
 Rember to install the following programs:
 
-* TinyTex (through R package)
+* Dropbox
 * LyX
 * TeXstudio
 * R and Rstudio
+* TinyTex (through R package)
 
 ## R and RStudio
 
