@@ -5,10 +5,10 @@
 Rember to install the following programs:
 
 * Dropbox
+* R and Rstudio
+* [TinyTex](https://yihui.name/tinytex/) (through R package)
 * LyX
 * TeXstudio
-* R and Rstudio
-* TinyTex (through R package)
 
 ## R and RStudio
 
