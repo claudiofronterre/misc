@@ -2,6 +2,13 @@
 
 ## General
 
+Rember to install the following programs:
+
+* TinyTex (through R package)
+* LyX
+* TeXstudio
+* R and Rstudio
+
 ## R and RStudio
 
 ### Set up the .Rprofile
