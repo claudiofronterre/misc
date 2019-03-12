@@ -12,6 +12,7 @@ Rember to install the following programs:
 * Spotify
 * Okular
 * Gnome tweak tool
+* Skype
 
 ## R and RStudio
 
