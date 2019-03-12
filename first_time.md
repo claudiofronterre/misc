@@ -73,3 +73,6 @@ To do this just follow the following [turorial](https://github.com/claudiofronte
 * `Restore .RData`: Unticking this default preventing loading previously creating R objects. This will make starting R quicker and also reduce the chance of getting bugs due to previously created objects. For this reason we recommend you untick this box.
 * `Save workspcace to .RData on exit`: change to Never. 
 * Go to `Appearance`: set Editor theme `Solarized Dark`. From time to time check if there is something nicer. 
+
+### Congigure git
+Follow the steps in [Happu git with R.](https://happygitwithr.com/index.html)
