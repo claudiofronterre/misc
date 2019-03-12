@@ -75,4 +75,4 @@ To do this just follow the following [turorial](https://github.com/claudiofronte
 * Go to `Appearance`: set Editor theme `Solarized Dark`. From time to time check if there is something nicer. 
 
 ### Congigure git
-Follow the steps in [Happu git with R.](https://happygitwithr.com/index.html)
+Follow the steps in [Happy git with R.](https://happygitwithr.com/index.html)
