@@ -9,6 +9,9 @@ Rember to install the following programs:
 * [TinyTex](https://yihui.name/tinytex/) (through R package)
 * LyX
 * TeXstudio
+* Spotify
+* Okular
+* Gnome tweak tool
 
 ## R and RStudio
 
