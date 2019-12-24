@@ -108,3 +108,11 @@ The [usethis package](https://usethis.r-lib.org) offers an alternative approach.
 library(usethis)
 use_git_config(user.name = "Claudio Fronterre", user.email = "cla.f90@gmail.com")
 ```
+
+Now create a new repository on github, clone it locally, make a change and then run then commit the changes and push them to the remote repository to check that eveyrhting works fine. The command line routine to commit and push is:
+
+```
+git add -A
+git commit -m "my commit message"
+git push
+```
