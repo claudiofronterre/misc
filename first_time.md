@@ -75,44 +75,4 @@ To do this just follow the following [turorial](https://github.com/claudiofronte
 * Go to `Appearance`: set Editor theme `Solarized Dark`. From time to time check if there is something nicer. 
 
 ### Configure git
-Follow the steps in [Happy git with R.](https://happygitwithr.com/index.html). Here is a brief summary. If `git` is not installed already install it using the following code:
-
-**Ubuntu**
-```
-sudo apt-get install git
-```
-
-**Mac OS**
-
-Install [Homebrew](http://brew.sh), "the missing package manager for OS X". Among many other things, it can install Git for you. Once you have Homebrew installed, do this in the shell:
-
-```
-brew install git
-```
-
-Now we need to introduce ourself to git. In the shell type:
-
-``` bash
-git config --global user.name 'Claudio Fronterre'
-git config --global user.email 'cla.f90@gmail.com'
-git config --global --list
-```
-
-substituting your name and **the email associated with your GitHub account**.
-
-The [usethis package](https://usethis.r-lib.org) offers an alternative approach. You can set your Git user name and email from within R:
-
-```r
-## install if needed (do this exactly once):
-## install.packages("usethis")
-library(usethis)
-use_git_config(user.name = "Claudio Fronterre", user.email = "cla.f90@gmail.com")
-```
-
-Now create a new repository on github, clone it locally, make a change and then run then commit the changes and push them to the remote repository to check that eveyrhting works fine. The command line routine to commit and push is:
-
-```
-git add -A
-git commit -m "my commit message"
-git push
-```
+Follow the steps in [Happy git with R.](https://happygitwithr.com/index.html). A brief summary can be found [here](https://github.com/claudiofronterre/misc/edit/master/git.md)  
