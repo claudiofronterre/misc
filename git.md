@@ -95,4 +95,36 @@ Click the green "Push" button to send your local changes to GitHub. If you are c
  create mode 100644 myrepo.Rproj
 ```
 
-## 
+## Workflows 
+
+### New project, GitHub first
+
+This is the best thing to do when you start a new project. First create the repo for the project on GitHub and then create a new R project with the version control option. Do the following once per new project:
+
+Go to <https://github.com> and make sure you are logged in. Click green "New repository" button. Or, if you are on your own profile page, click on "Repositories", then click the green "New" button.
+
+- Repository name: `myrepo` (or whatever you wish)  
+- Public  
+- YES Initialize this repository with a README
+
+Click the big green button "Create repository." Copy the HTTPS clone URL to your clipboard via the green "Clone or Download" button. Or copy the SSH URL if you chose to set up SSH keys.
+
+In RStudio, start a new Project:
+
+  * *File > New Project > Version Control > Git*. In the "repository URL" paste the URL of your new GitHub repository. It will be something like this `https://github.com/jennybc/myrepo.git`.
+  * Be intentional about where you create this Project.
+  * Suggest you "Open in new session".
+  * Click "Create Project" to create a new directory, which will be all of these things:
+    - a directory or "folder" on your computer
+    - a Git repository, linked to a remote GitHub repository
+    - an RStudio Project
+  * **In the absence of other constraints, I suggest that all of your R projects have exactly this set-up.**
+
+This should download the `README.md` file that we created on GitHub in the previous step. Look in RStudio's file browser pane for the `README.md` file.
+
+There's a big advantage to the "GitHub first, then RStudio" workflow: the remote GitHub repo is added as a remote for your local repo and your local `master` branch is now tracking `master` on GitHub. This is a technical but important point about Git. The practical implication is that you are now set up to push and pull. No need to fanny around setting up Git remotes and tracking branches on the command line.
+
+### Existing project
+
+This is probably the safest and quicker way to link an existing RStudio project to GitHub through Rstudio. Simply create a new repo in GitHub and clone it as a new project with RStudio and then copy all the files from the old project to the new one.
+
