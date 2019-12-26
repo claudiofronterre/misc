@@ -1,4 +1,4 @@
-# Instructions on Git
+# Instructions for Git
 
 ## Installation
 
