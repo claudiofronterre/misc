@@ -128,3 +128,10 @@ There's a big advantage to the "GitHub first, then RStudio" workflow: the remote
 
 This is probably the safest and quicker way to link an existing RStudio project to GitHub through Rstudio. Simply create a new repo in GitHub and clone it as a new project with RStudio and then copy all the files from the old project to the new one.
 
+## Tricks 
+
+### Move files bigger than a certain size to .gitignore
+
+```
+find . -size +49M | cat >> .gitignore
+```
